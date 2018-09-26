@@ -109,6 +109,19 @@ gulp.task('img', function(){
 	return Promise.all([q]);
 });
 
+// lib
+gulp.task('lib', function(){
+    
+    var q = new Promise(function(resolve){
+        gulp.src(['src/lib/**/*.*'])
+            .pipe(gulp.dest('dist/lib'))
+            .on('end',function(){
+                resolve()
+            })
+    });
+    return Promise.all([q]);
+});
+
 // html
 gulp.task('html', function(){
 
@@ -124,7 +137,7 @@ gulp.task('html', function(){
 
 gulp.task('dev', gulpSequence('webserver'));
 
-gulp.task('build', gulpSequence('clean','version','img','minify','uglify','html'));
+gulp.task('build', gulpSequence('clean','version','lib','img','minify','uglify','html'));
 
 
 
