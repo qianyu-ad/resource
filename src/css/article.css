@@ -3,9 +3,84 @@
     font-size: 14px;
     line-height: 28px;
 }
+.dp-highlighter,
 .bd-article img{
     max-width: 100%;
 }
-.dp-highlighter{
+.cnblogs_post_body{
     max-width: 100%;
+    overflow:auto;
 }
+
+
+
+/*http://web.jobbole.com*/
+.post-title h4 {font-family: "Microsoft YaHei", 'Myriad Pro','Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;}
+.entry-header h1 {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: normal;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e8e8e8;
+    margin: 0px 0 20px 0;
+    text-align: center;
+    font-family: "Microsoft YaHei", 'Myriad Pro','Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.entry-header h2 { font-size: 22px; line-height: 30px; font-weight: normal; margin-bottom: 5px; margin-top: -5px; font-family: "Microsoft YaHei", 'Myriad Pro','Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;}
+.entry-header h2 a { text-decoration: none; }
+.entry-meta, .post-meta { font-size: 12px; color: #999; }
+.entry-meta a, .post-meta a { color: #999; }
+.entry-meta a:hover, .post-meta a:hover { color: #333; }
+.entry-meta p { margin-bottom: 5px;  }
+.entry-meta { border-bottom: 1px dotted #e8e8e8; margin-bottom: 5px; /*padding-bottom: 30px;*/ }
+.blog .entry-meta, #archive .entry-meta, .search .entry-meta { border-bottom: 0; margin-bottom: 0; }
+.post-meta .excerpt { color: #333; text-transform: none; font-weight: normal; font-size: 13px; text-decoration: none;  margin-top: -5px; }
+.post-meta .meta-title { color: #333; text-transform: none; font-weight: bold; font-size: 13px; text-decoration: none; font-family: "Microsoft YaHei",'Myriad Pro','Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;}
+.post-meta .archive-title { color: #333; text-transform: none; font-weight: bold; font-size: 15px; text-decoration: none; font-family: "Microsoft YaHei",'Myriad Pro','Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;}
+.post { padding-bottom: 20px; }
+.image-link { display: block; background: #fff; padding: 4px; border: 1px solid #e8e8e8; -webkit-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; -ms-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; }
+.image-link:hover { background: #333; border-color: #333; }
+.post img { max-width: 100%; height: auto }
+.entry img { display: block; max-width: 100%; height: auto; clear: both; margin:auto;}
+.entry {
+    color: #2e2e2e;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 1.6;
+    word-break: break-all;
+    padding: 0 5px;
+}
+.entry .wp-caption img { max-width: 100%; height: auto !important; }
+
+.entry ul li,.entry ol li{
+    margin-bottom: 5px;
+    margin-left: 30px;
+}
+.entry ul,.entry ol{
+    display: block;
+    list-style-position: outside;
+}
+
+.entry .imooc ,.entry .imooc ul,.entry .imooc li{margin:0;padding:0;}
+.entry .imooc{background:#f0f0f0;text-align:left;}
+.entry .imooc ul{list-style:none;padding:9px;border:1px dotted #9b9b9b;overflow:hidden;}
+.entry .imooc ul li{width:295px;float:left;font-size:14px;font-weight:bold;line-height:19px;}
+.entry .imooc li a{display:block;height:19px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:#09c;text-decoration: none;margin-right:10px;}
+.entry .imooc li a:hover{color:#b30000;}
+.entry .imooc li.no-data{line-height: 50px;color: #000;}
+
+.entry #single-page-inner-widget{
+    font-size: 15px;
+    font-weight: bold;
+    margin: 10px 0 20px;
+    padding: 10px;
+    border:1px dotted #9b9b9b;
+}
+
+/* -- 8.1 Posts entries -- */
+.entry-thumb { margin-bottom: 20px; }
+.format-gallery .entry-thumb, .audio-thumb { margin-bottom: 0; }
+.entry-thumb img { width: 100%; height: auto; }
+.post-thumb { margin-bottom: 20px;}
+.entry-video, .entry-audio { margin-bottom: 20px; }
+.format-audio .image-link { padding: 0; border: 0; }
